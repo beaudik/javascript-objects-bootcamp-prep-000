@@ -3,5 +3,5 @@ var playlist = {
 };
 
 function updatePlaylist(playlist, artistName, songTitle){
-  return playlist['Cyndi Lauper'] = 'Time After Time'
+  return playlist[artistName] = songTitle;
 };
